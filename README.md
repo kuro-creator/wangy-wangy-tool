@@ -1,5 +1,5 @@
 ## Wangy-wangy-tool
-Tes membuat simpel website gratis tanpa harus beli hosting ataupun domain.
+Website gratis tanpa harus beli hosting ataupun domain.
 
 ## Situs
 
