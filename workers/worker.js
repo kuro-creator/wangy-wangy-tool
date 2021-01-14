@@ -12,12 +12,12 @@ const html = `<!DOCTYPE html>
 </head>
 <body>
     <nav>
-        <h1>wangy wangy tool</h1>
+        <h1>wangy tool</h1>
     </nav>
     <div class="container">
         <div class="penjelasan">
-        <h1>wangy tool</h1>
-        <p>ini adalah web yang digunakan untuk membuat copypasta istri 2D kesayangan anda hanya dengan memasukan nama nya dan langsung bisa memilih template nya</p>
+        <h1>Wut is Wangy Tool</h1>
+        <p>Wangy tool aka wangy wangy tool adalah web yang digunakan untuk membuat copypasta istri 2D kesayangan anda hanya dengan memasukan nama nya dan langsung bisa memilih template nya</p>
         </div>
         <div class="kotak-input">
             <p>masukan nama istri 2D mu</p>
@@ -25,7 +25,7 @@ const html = `<!DOCTYPE html>
             <button type="submit" id="btnAddName" onclick="inputnama()">Masukan nama</button>
             <div id="p"></div>
             <div class="pilih-template">
-                <p>pilih template nya ngab</p>
+                <p>pilih template nya cuk</p>
                 <button onclick="template1()">tipe 1</button>
                 <button onclick="template2()">tipe 2</button>
                 <button onclick="template3()">tipe 3</button>
@@ -33,10 +33,10 @@ const html = `<!DOCTYPE html>
             </div>
         </div>
         <div class="hasil">
-            <p>hasil akan ditampilkan dibawah</p>
+            <p>hasil akan ditampilkan di bawah</p>
         </div>
-        <div id="hasil"></div>
-        <button id="copy" onclick="copysemua('hasil')">copy text</button>
+        <div  id="hasil"></div>
+        <button style="display: block;margin: 30px auto;" id="copy" onclick="copysemua('hasil')">copy text</button>
     </div>
     <footer>
         <p>© 2021 Elaina Simping Feat. Rahman Onii-chan</p>
