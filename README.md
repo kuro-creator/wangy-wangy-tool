@@ -1,5 +1,4 @@
-## Free-Website
-
+## Wangy-wangy-tool
 Tes membuat simpel website gratis tanpa harus beli hosting ataupun domain.
 
 ## Situs
@@ -13,4 +12,9 @@ https://github.com/kuro-creator/wangy-wangy-tool/blob/main/workers/worker.js
 * Salin kodenya. 
 
 * setelah itu, deploy kode tsb ke Cloudflare Workers, selesai.
+
+## Credits
+
+* Source: [Fadilkun45/wangy-wangy-tool](https://github.com/fadilkun45/wangy-wangy-tool)
+* Cloudflare : Workers
 
