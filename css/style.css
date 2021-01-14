@@ -1,0 +1,178 @@
+* {
+    padding: 0 ;
+    margin: 0 ;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+nav { 
+    background-color: #09090a ;
+    display: flex ;
+    font-size: 20px ;
+    justify-content: space-between ;
+    padding: 10px ;
+    color: #FFFFFF ;
+    text-transform: uppercase ;
+}
+
+.container {
+    width: 700px ;
+    margin: 30px auto ;
+}
+
+.penjelasan {
+    width: 680px ;
+    margin: 10px auto ;
+    text-align: center ;
+}
+
+.penjelasan h1 { 
+    margin: 10px auto ;
+}
+
+.kotak-input { 
+    display: flex ;
+    flex-direction: column ;
+    margin: 10px ;
+    border: 1px dotted black ;
+    padding: 20px ;
+}
+
+.kotak-input p {
+    margin: 10px 0 ;
+}
+
+.kotak-input input { 
+    width: 350px ;
+    height: 25px ;
+    text-align: center ;
+    font-size: 18px ;
+}
+
+.kotak-input button { 
+    color: #FFFFFF ;
+    background-color: red ;
+    width: 150px ;
+    height: 40px ;
+    margin-top: 10px ;
+    border: none ;
+    cursor: pointer;
+    transition: 0.5s ;
+}
+
+.kotak-input button:hover {
+    background-color: rgb(202, 5, 5) ;
+}
+
+#p {
+    margin-top : 10px ;
+}
+
+.pilih-template { 
+    margin: 10px 0 ;
+}
+.pilih-template button {
+    background-color: lightblue ;
+    color: black ;
+}
+
+.hasil {
+    display: flex ;
+    text-align: center ;
+    margin: 20px auto ;
+}
+
+.hasil p {
+    text-align: center ;
+    margin: auto ;
+}
+
+#hasil { 
+    margin : 20px auto ;
+    width: 680px ;
+    height: 200px ;
+    border: 1px solid black ;
+    overflow-x : hidden ;
+    text-align: justify ;
+    padding: 10px ;
+}
+
+#copy {
+    color: #FFFFFF ;
+    background-color: red ;
+    width: 150px ;
+    height: 40px ;
+    margin-top: 10px ;
+    border: none ;
+    cursor: pointer;
+    transition: 0.5s ;
+}
+
+footer { 
+    display: flex ;
+    font-size: 14px ;
+    text-align : center ;
+    background-color: #09090a ;
+    color: #FFFFFF ;
+}
+
+footer p {
+    text-align: center ;
+    padding: 10px ;
+    margin: 0 auto ;
+}
+
+
+@media only screen and (max-width : 600px ){
+    nav { 
+        font-size: 14px ;
+        justify-content: space-between ;
+        padding: 10px ;
+        text-transform: uppercase ;
+    }
+
+    nav h1 { 
+        margin: auto ;
+    }
+
+    .container {
+        width : 340px ;
+        margin: auto ;
+    }
+
+    .penjelasan {
+        margin: auto ;
+        width: 330px ;
+    }
+
+    .kotak-input {
+        width: 320px ;
+        padding: 0 ;
+        margin: 20px auto ;
+    }
+
+    .kotak-input p {
+        margin : 10px auto ;
+    }
+
+    .kotak-input input {
+        width: 300px ;
+        padding: 0 ;
+        margin: 10px ;
+    }
+
+    .kotak-input button {
+        margin-left: 10px ;
+    }
+
+    .pilih-template p {
+        margin-left: 10px ;
+    }
+
+    #hasil {
+        margin: 20px auto ;
+        width: 300px ;
+        padding: 10px ;
+        overflow-x: hidden ;
+        font-size: 12px ;
+    }
+}
