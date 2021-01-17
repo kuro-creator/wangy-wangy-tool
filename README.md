@@ -1,5 +1,5 @@
 ## Wangy-wangy-tool
-Website gratis tanpa harus beli hosting ataupun domain.
+ngesimp ueeyy
 
 ## Situs
 
